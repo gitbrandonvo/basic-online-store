@@ -49,7 +49,7 @@ store.checkout("A001");
 ### My Reflections
 
 Project meets requirements and provides a simple simulation of an online shopping experience. While the foundational elements are in place, there's certain room for improvement. Some considerations:
-- Implement a UI: focus were on requirements and backend logic. Adding a UI for realism would make sense.
+- Implement a UI: requirements and backend logic were the focus for this initial commit. Adding a UI for a tangible and interactive experience
 - Refine logic: refine logic, add validations, and manage edge cases
 - Data persistence could be implemnted using a file system (like JSON) or a database
 - Database -> user accounts & authentication

@@ -49,10 +49,11 @@ store.checkout("A001");
 ### My Reflections
 
 Project meets requirements and provides a simple simulation of an online shopping experience. While the foundational elements are in place, there's certain room for improvement. Some considerations:
-- Implement a UI: requirements and backend logic were the focus for this initial commit. Adding a UI for a tangible and interactive experience
-- Refine logic: refine logic, add validations, and manage edge cases
-- Data persistence could be implemnted using a file system (like JSON) or a database
-- Database -> user accounts & authentication
+- Implement a UI: requirements and backend logic were the focus for this initial commit. Adding a UI would enable a tangible and interactive experience.
+- Refine logic: refine logic, add validations, and manage edge cases.
+- Data persistence could be implemented using a file system (like JSON) or a database.
+- Database -> user accounts & authentication.
+- RESTful API
 - Modularity would make this more maintainble and organized (store.js, product.js, etc)
 - Implement error handling gracefully with try-catch blocks as a start
 - Additional features like: removing item from a cart, updating quantity of items in a cart, adding quantity field to inventory, handling out-of-stock scenarios, support discounts/promotions

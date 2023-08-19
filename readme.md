@@ -29,7 +29,12 @@ Design an online store system that provides the following features:
 - The total price of products in a user's cart can be calculated using the `calculateTotalPrice` method.
 - Users can checkout using the `checkout` method, which clears their cart.
 
-### Client Code
+## Methods to run
+
+1. Open file directly in Github, copy contents, and enter contents into developer tools console (Shortcut: F12 on most browsers).
+2. Clone this repository, open in a supported development environment, and run `online-store.js`
+
+### Basic Usage
 
 ```javascript
 const store = new Store();
@@ -42,12 +47,12 @@ store.checkout("A001");
 ```
 
 ### My Reflections
-- Project meets requirements and provides a simple simulation of an online shopping experience. While the foundational elements are in place, reflecting, there's certain room for improvement. Fun consideratons in the future:
 
+Project meets requirements and provides a simple simulation of an online shopping experience. While the foundational elements are in place, there's certain room for improvement. Some considerations:
 - Implement a UI: focus were on requirements and backend logic. Adding a UI for realism would make sense.
 - Refine logic: refine logic, add validations, and manage edge cases
 - Data persistence could be implemnted using a file system (like JSON) or a database
 - Database -> user accounts & authentication
-- Modularity would make this more maintainble and organized (store.js, product.js, etc.)
+- Modularity would make this more maintainble and organized (store.js, product.js, etc)
 - Implement error handling gracefully with try-catch blocks as a start
 - Additional features like: removing item from a cart, updating quantity of items in a cart, adding quantity field to inventory, handling out-of-stock scenarios, support discounts/promotions
